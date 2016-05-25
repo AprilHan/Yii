@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yii</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/globale.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-inverse navYii">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand nav-logo" href="#">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">首页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">下载</a></li>
+            <li><a href="#">文档</a></li>
+            <li><a href="#">教程</a></li>
+            <li><a href="#">扩展</a></li>
+            <li><a href="#">源码</a></li>
+            <li><a href="#">问答</a></li>
+            <li><a href="#">话题</a></li>
+            <li><a href="#">案例</a></li>
+            <li><a href="#">排行</a></li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control yii-input" placeholder="全站搜索">
+              <button type="submit" class="btn btn-default yii-search">
+                <span class=" icon-search"></span>
+              </button>
+            </div>
+
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+  <section id="content">
+    <div class="container">
+      <div class=row>
+        <div class="col-lg-9 col-md-9">
+          <div class="jumbotron">
+            <h1><font class="fast">快速</font>，<font class="secure">安全</font>，<font class="professional">专业</font>的 PHP 框架</h1>
+            <h2>Yii 是一个<a href="/performance">高性能</a>的，适用于开发 WEB2.0 应用的 PHP 框架。</h2>
+            <p>Yii 自带了<a href="/features">丰富的功能</a> ，包括 MVC，DAO/ActiveRecord，I18N/L10N，缓存，身份验证和基于角色的访问控制，脚手架，测试等，可显著缩短开发时间。</p>
+            <p>
+              <a class="btn btn-lg btn-success" href="/doc"><i class="icon icon-book"></i> 中文文档</a><a class="btn btn-lg btn-primary" href="/download"><i class="icon icon-download"></i> 下载框架</a>                2.0.8 版本发布于 2016年04月28日 • 1.1.17 版本发布于 2016年01月13日
+            </p>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="feature">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4">
+                    <h2 class="fast"><i class="icon icon-time"></i> 快速</h2>
+                    <p>Yii 只加载您需要的功能。它具有强大的缓存支持。它明确的设计能与 AJAX 一起高效率的工作。</p>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                    <h2 class="secure"><i class="icon icon-shield"></i> 安全</h2>
+                    <p>Yii 的标准是安全的。它包括了输入验证，输出过滤，SQL 注入和跨站点脚本的预防。</p>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                    <h2 class="professional"><i class="icon icon-globe"></i> 专业</h2>
+                    <p>Yii 可帮助您开发清洁和可重用的代码。它遵循了 MVC 模式，确保了清晰分离逻辑层和表示层。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+              <h2 class="panel-title pull-left"><i class="icon icon-bullhorn"></i> 最新动态</h2>
+              <span class="pull-right pull-right"><a class="btn btn-xs" href="/news">更多»</a></span>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <ul class="post-list">
+                    <li style="white-space: normal;">
+                      <a href="/news/98">MongoDB 扩展 2.0.5 版本发布了</a><span class="time">2016-05-09</span>
+                    </li>
+                    <li style="white-space: normal;">
+                      <a href="/news/97">Yii 2.0.8 发布了</a> <span class="time">2016-04-28</span>
+                    </li>
+                    <li style="white-space: normal;">
+                      <a href="/news/96">新的官方扩展发布了</a>  <span class="time">2016-03-18</span>
+                    </li>
+                    <li style="white-space: normal;">
+                    <a href="/news/95">Yii 关于 jQuery-pjax 的 fork 2.0.6 发布了</a>
+                    <span class="time">2016-03-04</span>
+                    </li>
+                    <li style="white-space: normal;">
+                      <a href="/news/94">Yii 2.0.7 发布了</a>       <span class="time">2016-02-14</span>
+                    </li>
+                    <li style="white-space: normal;">
+                      <a href="/news/93">Yii 1.1.17 发布了</a>     <span class="time">2016-01-13</span>
+                    </li>
+                    <li style="white-space: normal;">
+                      <a href="/news/92">PHP 7 发布了</a> <span class="time">2015-12-04</span>
+                    </li>
+                    <li style="white-space: normal;">
+                      <a href="/news/91">关于 Yii 1.1 的支持和终结期的最新通知</a>                                <span class="time">2015-11-22</span>
+                    </li>
+                    <li style="white-space: normal;">
+                      <a href="/news/90">新成员加入到 Yii 开发团队</a>                                <span class="time">2015-11-19</span>
+                    </li>
+                  </ul></div><div class="col-lg-6 col-md-6 hidden-xs"><ul class="post-list">                                                        <li style="white-space: normal;">
+                  <a href="/news/89">Debug，Bootstrap，Sphinx 和 Authclient 扩展</a> <span class="time">2015-09-24</span>
+                </li>
+                <li style="white-space: normal;">
+                  <a href="/news/88">Yii 2.0.6 发布了</a>  <span class="time">2015-08-05</span>
+                </li>
+                <li style="white-space: normal;">
+                  <a href="/news/87">Yii 2.0.5 发布了（安全修复）</a>                                <span class="time">2015-07-11</span>
+                </li>
+                <li style="white-space: normal;">
+                  <a href="/news/86">Yii 2.0.4 发布了</a><span class="time">2015-05-10</span>
+                </li>
+                <li style="white-space: normal;">
+                  <a href="/news/85">Yii 2.0.3 发布了</a> <span class="time">2015-03-01</span>
+                </li>
+                <li style="white-space: normal;">
+                  <a href="/news/84">Yii 2.0.2 发布了</a><span class="time">2015-01-11</span>
+                </li>
+                <li style="white-space: normal;">
+                  <a href="/news/83">Yii 1.1.16 发布了</a>  <span class="time">2014-12-21</span>
+                </li>
+                <li style="white-space: normal;">
+                  <a href="/news/82">Yii 2.0.1 发布了</a>  <span class="time">2014-12-07</span>
+                </li>
+                <li style="white-space: normal;">
+                  <a href="/news/81">Yii 2.0.0 发布了</a> <span class="time">2014-10-12</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+                <h2 class="panel-title pull-left"><i class="icon-exclamation-sign"></i> 最新问题</h2>
+                <span class="pull-right pull-right"><a class="btn btn-xs" href="/question">更多»</a></span>
+            </div>
+            <table class="table table-striped">
+                <thead class="hidden-xs">
+                    <tr>
+                        <th>问题</th>
+                        <th width="80">版本</th>
+                        <th width="100">提问者</th>
+                        <th width="80">时间</th>
+                        <th width="80">状态</th>
+                        <th width="50">浏览</th>
+                        <th width="50">回答</th>
+                    </tr>
+                </thead>
+                <tbody>
+                                <tr>
+                    <td class="title"><i class="icon icon-question-circle icon-fw"></i> <a href="/question/1921">在实际开发中，gii用的多，还是手动创建多</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/31956" rel="author" data-original-title="" title="">小熊抱抱吧</a></td>
+                    <td class="hidden-xs">4小时前</td>
+                    <td class="hidden-xs">未解决</td>
+                    <td class="hidden-xs">39</td>
+                    <td class="hidden-xs">2</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1920">Yii2 RESTful API如何自定义验证方式</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/31109" rel="author" data-original-title="" title="">八宝粥</a></td>
+                    <td class="hidden-xs">7小时前</td>
+                    <td class="hidden-xs">未解决</td>
+                    <td class="hidden-xs">32</td>
+                    <td class="hidden-xs">0</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1919">YII 一个方法里 可以用两次 return  $this-&gt;render()吗</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/35984" rel="author" data-original-title="" title="">撸sir</a></td>
+                    <td class="hidden-xs">20小时前</td>
+                    <td class="hidden-xs">未解决</td>
+                    <td class="hidden-xs">48</td>
+                    <td class="hidden-xs">3</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1918">yii2.0 save数据后字段为null</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/31956" rel="author" data-original-title="" title="">小熊抱抱吧</a></td>
+                    <td class="hidden-xs">23小时前</td>
+                    <td class="hidden-xs">已关闭</td>
+                    <td class="hidden-xs">40</td>
+                    <td class="hidden-xs">1</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1917">yii2 控制台任务 linux环境问题</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/34148" rel="author" data-original-title="" title="">243238096</a></td>
+                    <td class="hidden-xs">1天前</td>
+                    <td class="hidden-xs">未解决</td>
+                    <td class="hidden-xs">45</td>
+                    <td class="hidden-xs">1</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1916">怎么把 toplan/phpsms 优雅的整合到 Yii2</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/32233" rel="author" data-original-title="" title="">zifeiyu</a></td>
+                    <td class="hidden-xs">1天前</td>
+                    <td class="hidden-xs">未解决</td>
+                    <td class="hidden-xs">42</td>
+                    <td class="hidden-xs">0</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1915">有购物车扩展吗？</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/35487" rel="author" data-original-title="" title="">okokad</a></td>
+                    <td class="hidden-xs">1天前</td>
+                    <td class="hidden-xs">已解决</td>
+                    <td class="hidden-xs">46</td>
+                    <td class="hidden-xs">1</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1914">整合百度编辑器出现的问题</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/35807" rel="author" data-original-title="" title="">geta_chan</a></td>
+                    <td class="hidden-xs">1天前</td>
+                    <td class="hidden-xs">已关闭</td>
+                    <td class="hidden-xs">80</td>
+                    <td class="hidden-xs">1</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1913">yii原始sql语句分页</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/36924" rel="author" data-original-title="" title="">俗已入骨</a></td>
+                    <td class="hidden-xs">05-22</td>
+                    <td class="hidden-xs">未解决</td>
+                    <td class="hidden-xs">106</td>
+                    <td class="hidden-xs">1</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/question/1912">求文，关于yii2编码规范配置的好做法</a></td>
+                    <td class="hidden-xs">2.0 版本</td>
+                    <td class="hidden-xs"><a href="/user/29312" rel="author" data-original-title="" title="">bubifengyun</a></td>
+                    <td class="hidden-xs">05-21</td>
+                    <td class="hidden-xs">未解决</td>
+                    <td class="hidden-xs">95</td>
+                    <td class="hidden-xs">2</td>
+                </tr>
+                                </tbody>
+            </table>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+                <h2 class="panel-title pull-left"><i class="icon-comments-alt"></i> 最新主题</h2>
+                <span class="pull-right pull-right"><a class="btn btn-xs" href="/topic">更多»</a></span>
+            </div>
+            <table class="table table-striped">
+                <thead class="hidden-xs">
+                    <tr>
+                        <th>主题</th>
+                        <th width="100">版块</th>
+                        <th colspan="2" class="user" width="125">发布者</th>
+                        <th colspan="2" class="user" width="125">最后回复</th>
+                        <th width="50">浏览</th>
+                        <th width="50">回复</th>
+                    </tr>
+                </thead>
+                <tbody>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6405">yii2表单隐藏域的使用方法</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=3">技术分享</a></td>
+                    <td class="user hidden-xs"><a href="/user/35914" rel="author" data-original-title="" title="">小程府</a></td>
+                    <td class="time hidden-xs">5小时前</td>
+                                        <td class="user hidden-xs"><a href="/user/31235" rel="author" data-original-title="" title="">koko</a></td>
+                    <td class="time hidden-xs">4小时前</td>
+                                        <td class="hidden-xs">16</td>
+                    <td class="hidden-xs">1</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6404">Composer问题集锦</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=1">新手入门</a></td>
+                    <td class="user hidden-xs"><a href="/user/34432" rel="author" data-original-title="" title="">鲁鲁槟</a></td>
+                    <td class="time hidden-xs">6小时前</td>
+                                        <td class="user hidden-xs"><a href="/user/34432" rel="author" data-original-title="" title="">鲁鲁槟</a></td>
+                    <td class="time hidden-xs">6小时前</td>
+                                        <td class="hidden-xs">20</td>
+                    <td class="hidden-xs">0</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6403">Can't use function return value in write context 问题的解决</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=3">技术分享</a></td>
+                    <td class="user hidden-xs"><a href="/user/33180" rel="author" data-original-title="" title="">优友</a></td>
+                    <td class="time hidden-xs">18小时前</td>
+                                        <td class="user hidden-xs"><a href="/user/33180" rel="author" data-original-title="" title="">优友</a></td>
+                    <td class="time hidden-xs">6小时前</td>
+                                        <td class="hidden-xs">44</td>
+                    <td class="hidden-xs">2</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6402">本地数据迁移 yii migrate 报错</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=2">求助交流</a></td>
+                    <td class="user hidden-xs"><a href="/user/36459" rel="author" data-original-title="" title="">鲁b-yii</a></td>
+                    <td class="time hidden-xs">22小时前</td>
+                                        <td class="user hidden-xs"><a href="/user/36459" rel="author" data-original-title="" title="">鲁b-yii</a></td>
+                    <td class="time hidden-xs">22小时前</td>
+                                        <td class="hidden-xs">25</td>
+                    <td class="hidden-xs">0</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6401">url参数中有“数组”的怎么写路由规则？如“/list.html?slug[0]=one&amp;slug[1]=two”</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=2">求助交流</a></td>
+                    <td class="user hidden-xs"><a href="/user/33839" rel="author" data-original-title="" title="">xiaopig</a></td>
+                    <td class="time hidden-xs">1天前</td>
+                                        <td class="user hidden-xs"><a href="/user/33839" rel="author" data-original-title="" title="">xiaopig</a></td>
+                    <td class="time hidden-xs">20小时前</td>
+                                        <td class="hidden-xs">47</td>
+                    <td class="hidden-xs">1</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6400">想知道yii原生sql语句怎么分页？</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=1">新手入门</a></td>
+                    <td class="user hidden-xs"><a href="/user/36924" rel="author" data-original-title="" title="">俗已入骨</a></td>
+                    <td class="time hidden-xs">05-22</td>
+                                        <td class="user hidden-xs"><a href="/user/36924" rel="author" data-original-title="" title="">俗已入骨</a></td>
+                    <td class="time hidden-xs">05-22</td>
+                                        <td class="hidden-xs">71</td>
+                    <td class="hidden-xs">0</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6399">YII2到底怎么安装啊？？官网的教程是什么鬼？？</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=1">新手入门</a></td>
+                    <td class="user hidden-xs"><a href="/user/36921" rel="author" data-original-title="" title="">a476552085</a></td>
+                    <td class="time hidden-xs">05-22</td>
+                                        <td class="user hidden-xs"><a href="/user/36244" rel="author" data-original-title="" title="">白狼栈</a></td>
+                    <td class="time hidden-xs">18小时前</td>
+                                        <td class="hidden-xs">97</td>
+                    <td class="hidden-xs">3</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6397">(function($){...})(jQuery)是什么意思</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=1">新手入门</a></td>
+                    <td class="user hidden-xs"><a href="/user/34432" rel="author" data-original-title="" title="">鲁鲁槟</a></td>
+                    <td class="time hidden-xs">05-21</td>
+                                        <td class="user hidden-xs"><a href="/user/34432" rel="author" data-original-title="" title="">鲁鲁槟</a></td>
+                    <td class="time hidden-xs">05-21</td>
+                                        <td class="hidden-xs">55</td>
+                    <td class="hidden-xs">0</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6396">新手入门请各位大神赐教关于composer到底是啥，yii后台的一些问题</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=1">新手入门</a></td>
+                    <td class="user hidden-xs"><a href="/user/36895" rel="author" data-original-title="" title="">stream_000</a></td>
+                    <td class="time hidden-xs">05-20</td>
+                                        <td class="user hidden-xs"><a href="/user/1204" rel="author" data-original-title="" title="">Sumic</a></td>
+                    <td class="time hidden-xs">23小时前</td>
+                                        <td class="hidden-xs">101</td>
+                    <td class="hidden-xs">2</td>
+                </tr>
+                                <tr>
+                    <td class="title"><i class="icon icon-file-text-alt"></i> <a href="/topic/6395">ActiveDataProvider分页问题，每一页的参数是什么？</a></td>
+                    <td class="hidden-xs"><a href="/topic?category=2">求助交流</a></td>
+                    <td class="user hidden-xs"><a href="/user/35736" rel="author" data-original-title="" title="">Henry-</a></td>
+                    <td class="time hidden-xs">05-20</td>
+                                        <td class="user hidden-xs"><a href="/user/35736" rel="author" data-original-title="" title="">Henry-</a></td>
+                    <td class="time hidden-xs">05-20</td>
+                                        <td class="hidden-xs">58</td>
+                    <td class="hidden-xs">0</td>
+                </tr>
+                                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3"></div>
+  </div>
+</div>
+</section>
+</body>
+</html>
